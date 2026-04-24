@@ -11,40 +11,6 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000).
 
-## Add Your Headshot
-
-1. Drop your photo into the `/public` folder as `headshot.jpg`
-2. Square crop works best (minimum 400×400px)
-3. The Hero section will display it in a circular frame
-4. If no image is found, it gracefully falls back to your initials "IV"
-
-## Customize Your Links
-
-Edit `components/Contact.tsx` — update the `links` array with your real URLs:
-
-```ts
-const links = [
-  { label: 'GitHub',   icon: 'GH', href: 'https://github.com/YOUR_USERNAME' },
-  { label: 'LinkedIn', icon: 'LI', href: 'https://linkedin.com/in/YOUR_PROFILE' },
-  { label: 'Email',    icon: 'EM', href: 'mailto:your@email.com' },
-  { label: 'Resume',   icon: 'CV', href: '/resume.pdf' },  // put resume.pdf in /public
-]
-```
-
-## Deploy
-
-### Vercel (recommended)
-```bash
-npx vercel
-```
-
-### Static Export (GitHub Pages, Netlify, etc.)
-The project is configured with `output: 'export'` in `next.config.js`:
-```bash
-npm run build    # generates /out folder
-```
-Upload the `/out` folder to any static host.
-
 ## Project Structure
 
 ```
