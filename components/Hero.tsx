@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion'
 import Image from 'next/image'
+import styles from '../app/Hero.module.css'
 
 export default function Hero() {
   return (
@@ -32,19 +33,11 @@ export default function Hero() {
         }}
       />
 
-      <div
-        style={{
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'space-between',
-          width: '100%',
-          maxWidth: 1100,
-          gap: 60,
-          flexWrap: 'wrap',
-        }}
-      >
+      <div className={styles.heroContainer}>
+
+        
         {/* ── Left: Text content ── */}
-        <div style={{ flex: '1 1 480px', position: 'relative', zIndex: 1 }}>
+        <div  className={styles.text} style={{ position: 'relative', zIndex: 1 }}>
           <motion.p
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
@@ -111,12 +104,14 @@ export default function Hero() {
               color: 'var(--muted)',
               lineHeight: 1.7,
               marginTop: 28,
-              maxWidth: 540,
+              maxWidth: '100%',
             }}
           >
-            MS Computer Science · Building scalable web applications and ML
-            pipelines. Currently crafting automation systems at Vosyn Inc. Based
-            in Denver, CO.
+            Software Engineer with 2+ years of experience developing workflow-driven web applications through secure API development,
+            interactive UI delivery, and database-backed process automation. Skilled in using Python, FastAPI, React.js, PostgreSQL,
+            SQLAlchemy, and AWS to support enrollment, document upload, eligibility validation, and dashboard workflows. Earlier
+            experience includes building Angular, Node.js, Express.js, MongoDB, and RxJS-based operational portals, with foundational
+            Node.js and MySQL work supporting inquiry tracking, API validation, and internal admin processes.
           </motion.p>
 
           <motion.div
@@ -206,7 +201,8 @@ export default function Hero() {
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ delay: 0.6, duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
-          style={{ flex: '0 0 auto', position: 'relative', zIndex: 1 }}
+          className={styles.image}
+          style={{ position: 'relative', zIndex: 1 }}
         >
           <div
             style={{
@@ -232,8 +228,8 @@ export default function Hero() {
             <Image
               src="/headshot.jpg"
               alt="Ishit Vasoya"
-              width={280}
-              height={280}
+              width={340}
+              height={340}
               priority
               style={{
                 objectFit: 'cover',

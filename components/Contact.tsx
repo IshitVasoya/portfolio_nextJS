@@ -5,7 +5,7 @@ import { Section, SectionLabel } from './Section'
 const links = [
   { label: 'GitHub', icon: 'GH', href: 'https://github.com/IshitVasoya' },       // TODO: replace with your GitHub URL
   { label: 'LinkedIn', icon: 'LI', href: 'https://www.linkedin.com/in/ishit-vasoya/' },      // TODO: replace with your LinkedIn URL
-  { label: 'Email', icon: 'EM', href: 'mailto:ishitvasoya@gmail.com' }, // TODO: replace with your email
+  { label: 'Email', icon: 'EM', href: 'mailto:ishitvasoya89@gmail.com' }, // TODO: replace with your email
   { label: 'Resume', icon: 'CV', href: 'resume.pdf' },        // TODO: link to your resume PDF
 ]
 

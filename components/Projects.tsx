@@ -6,32 +6,34 @@ import { Section, SectionLabel } from './Section'
 
 const projects = [
   {
-    title: 'Breast Cancer Detection Pipeline',
-    tags: ['TensorFlow/Keras', 'EfficientNetB7', 'SHAP', 'Grad-CAM'],
+    title: 'Breast Cancer Detection and Prognosis Prediction Using Multi-Modal Machine Learning',
+    tags: ['Python', 'TensorFlow/Keras', 'Scikit-learn', 'SHAP'],
     description:
-      'Hybrid ensemble ML pipeline combining deep learning with interpretability. Achieved 95.9% classification accuracy using EfficientNetB7 with SHAP and Grad-CAM for explainable predictions on medical imaging data.',
+      ['Built a two-branch breast cancer grading pipeline combining EfficientNetB7 MRI image features with Random Forest radiomic features for ensemble-based tumor classification.',
+      'Reduced 80+ radiomic descriptors to 30 features using correlation filtering, ANOVA, RFE, and Random Forest importance for cleaner model training.',
+      'Added SHAP and Grad-CAM explainability workflows to review feature influence and visualize CNN attention across tumor- relevant MRI regions during validation.'
+      ],
     accent: '#ff6b9d',
   },
   {
-    title: 'Multi-Modal Radiogenomics ML',
-    tags: ['CNN', 'Random Forest', 'scikit-learn', 'pydicom'],
+    title: 'Securing User Browsing: Browser and Extension Effectiveness Against XSS Attack',
+    tags: ['Python', 'Flask', 'HTML', 'CSS', 'CSP', 'Selenium', 'Browser Security'],
     description:
-      'Graduate research combining CNN feature extraction with Random Forest classifiers for multi-modal medical imaging analysis. Built DICOM preprocessing pipelines and multi-stage feature selection workflows.',
+    ['Engineered two Flask-backed web variants with and without CSP headers to evaluate reflected XSS behavior across browser configurations and payload execution paths.',
+      'Implemented five XSS attack vectors covering file uploads, URL injection, snippets, text boxes, and image errors to reproduce realistic input-sanitization failures safely.',
+      'Automated cross-browser validation across six browsers and security extensions, comparing script execution, blocked payloads, and CSP mitigation behavior under repeatable test conditions.'
+      ],
     accent: '#4ecdc4',
   },
   {
-    title: 'Vosyn Automation Platform',
-    tags: ['Python', 'n8n', 'REST APIs', 'WordPress'],
+    title: 'Performance and Fairness Comparison of Round Robin and Lottery Scheduling Algorithm',
+    tags: ['C', 'Python', 'Scheduling Algorithms', 'Statistical Analysis', 'Performance Evaluation'],
     description:
-      'End-to-end automation system integrating WordPress lead capture, ClickUp task routing, and Slack notifications. Replaced 30-minute daily manual processes with zero-touch workflow automation.',
+      ['Implemented dynamic Round Robin and Lottery schedulers in C, using Python analysis scripts to simulate execution across configurable quantum and ticket distributions.',
+        'Measured waiting time, turnaround time, response time, and fairness across three workload scenarios, identifying scheduler behavior under balanced and burst-heavy process queues.',
+        'Optimized simulation logic for repeatable experiments, reducing manual recalculation effort by automating result capture, metric aggregation, and comparative scheduler reporting outputs consistently.'
+      ],
     accent: '#ffd93d',
-  },
-  {
-    title: 'E-Commerce Platform',
-    tags: ['Angular', 'Node.js', 'MongoDB', 'JWT'],
-    description:
-      'Full-stack MEAN application with secure authentication, optimized database queries, and responsive UI components. Drove measurable improvements in sales and customer engagement metrics.',
-    accent: '#7c6fff',
   },
 ]
 
@@ -40,12 +42,12 @@ export default function Projects() {
 
   return (
     <Section id="projects">
-      <div style={{ padding: '0 clamp(24px, 5vw, 60px)' }}>
+      <div style={{ width: '100%', margin: '0 auto', padding: '0 clamp(24px, 5vw, 60px)', }}>
         <SectionLabel>Projects</SectionLabel>
         <div
           style={{
             display: 'grid',
-            gridTemplateColumns: 'repeat(auto-fill, minmax(320px, 1fr))',
+            gridTemplateColumns: 'repeat(auto-fill, minmax(500px, 1fr))',
             gap: 24,
           }}
         >

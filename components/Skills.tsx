@@ -4,44 +4,20 @@ import { motion } from 'framer-motion'
 import { Section, SectionLabel } from './Section'
 
 const skills: Record<string, string[]> = {
-  Languages: [
-    'Python',
-    'JavaScript',
-    'TypeScript',
-    'HTML5',
-    'CSS3',
-    'SQL',
-    'C',
-    'Java',
+  'Languages': [
+    'Python', 'JavaScript', 'TypeScript', 'SQL', 'HTML5', 'CSS3'
   ],
-  'Frameworks & Libraries': [
-    'Angular',
-    'React',
-    'Node.js',
-    'Express.js',
-    'Next.js',
-    'TensorFlow',
-    'Keras',
-    'scikit-learn',
+  'Frontend Development': [
+    'Angular', 'React.js', 'Vue.js', 'RxJS', 'NgRx', 'Redux', 'Vue Router', 'SCSS', 'Bootstrap'
   ],
-  Databases: ['MongoDB', 'PostgreSQL', 'MySQL'],
+  'Backend Development': ['FastAPI', 'Django', 'Flask', 'Node.js', 'Express.js', 'REST APIs', 'GraphQL', 'WebSockets'],
+  'Databases & ORM': [
+    'MongoDB', 'PostgreSQL', 'MySQL', 'Mongoose', 'SQLAlchemy', 'Aggregation Pipelines', 'Indexing'
+  ],
   'Cloud & DevOps': [
-    'AWS EC2/S3',
-    'GCP',
-    'Docker',
-    'GitHub Actions',
-    'CI/CD',
+    'AWS (EC2, S3, RDS, Lambda)', 'Docker', 'Nginx', 'GitHub Actions', 'CI/CD'
   ],
-  'Tools & Platforms': [
-    'n8n',
-    'WordPress',
-    'ClickUp API',
-    'Slack API',
-    'Git',
-    'Jest',
-    'Mocha',
-  ],
-  Security: ['Wireshark', 'Burp Suite', 'Metasploit', 'JWT Auth'],
+  'AI, Testing & Tools': ['Machine Learning', 'TensorFlow', 'Scikit-learn', 'PyTest', 'Jest', 'Postman', 'Swagger/OpenAPI', 'n8n', 'Git', 'GitHub', 'Jira'],
 }
 
 export default function Skills() {

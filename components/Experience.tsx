@@ -5,35 +5,38 @@ import { Section, SectionLabel } from './Section'
 
 const experiences = [
   {
-    role: 'Technology & System Coordinator',
-    company: 'Vosyn Inc.',
-    period: '2025 — Present',
+    role: 'Software Engineer',
+    company: 'Guild',
+    period: 'Jan 2025 — Present',
     details: [
-      'Built end-to-end automation workflows connecting WordPress, ClickUp, and Slack using Python and n8n',
-      'Designed REST API webhook pipelines for lead capture and task routing with zero-touch automation',
-      'Deployed Bitwarden via Docker on GCP for company-wide credential management',
-      'Built Python reporting scripts pulling ClickUp API data for weekly pipeline summaries',
+      'Configured FastAPI service modules for employer-sponsored learning enrollment, connecting React.js components, PostgreSQL models, and SQLAlchemy validations across learner profile update workflows for advisors daily use.',
+      'Refined tuition eligibility APIs using Python and Pydantic validation, reducing enrollment exception handling by 24% while supporting employer-specific program rules and learner status changes securely.',
+      'Integrated AWS S3 document uploads with backend enrollment records, enabling learners to submit reimbursement file through authenticated React.js portal screens without support intervention delays monthly.',
+      'Optimized PostgreSQL queries and indexing for learner progress dashboards, improving dashboard response time by 31% during advisor review and employer reporting cycles across cohorts weekly.',
+      'Automated PyTest coverage and GitHub Actions checks for enrollment API changes, catching validation issues before releases across FastAPI and React.js updates to reduce rework cycles.',
+      'Monitored production API logs through AWS CloudWatch and resolved learner profile defects, lowering repeated support tickets by 18% across enrollment workflow releases and dashboard updates.'
     ],
   },
   {
     role: 'Full Stack Developer',
     company: 'Elluminati Inc.',
-    period: '2023 — 2023',
+    period: 'Jan 2023 — Aug 2023',
     details: [
-      'Engineered a full-stack e-commerce platform on the MEAN stack, boosting online sales by 15%',
-      'Built secure REST APIs with JWT authentication, improving customer engagement by 20%',
-      'Optimized MongoDB query performance and implemented pagination for large datasets',
-      'Developed Angular components with TypeScript for responsive, cross-browser UIs',
+      'Mapped driver, customer, and merchant workflow requirements into Angular screens for an on-demand dispatch portal supporting booking, assignment, fare visibility, and branch operations modules daily.',
+      'Built Express.js APIs with MongoDB collections for trip status updates, improving dispatcher lookup time by 22% across active ride and delivery queues during rush hours.',
+      'Connected RxJS-based Angular services with Node.js endpoints to refresh booking, payment, and driver availability data without full page reloads for operations staff monitoring shifts weekly.',
+      'Structured Mongoose schemas for customer, driver, vehicle, and order records, keeping operational data consistent across admin modules and mobile app integrations across production releases smoothly.',
+      'Tested REST APIs through Postman and fixed validation defects before release, reducing repeated QA issues by 19% during marketplace portal delivery cycles for client rollouts.'
     ],
   },
   {
-    role: 'Backend Developer',
+    role: 'Software developer (Intern)',
     company: 'Equisinfo',
-    period: '2021 — 2021',
+    period: 'Jul 2022 — Dec 2022',
     details: [
-      'Deployed real-time Node.js applications on AWS EC2 with auto-scaling configurations',
-      'Built RESTful APIs handling concurrent requests with Express.js middleware patterns',
-      'Managed S3 storage integration for document and media asset pipelines',
+      'Assisted Node.js development for an internal training-request tracker, creating Express.js routes for student inquiries, batch details, counselor follow-ups, and basic status updates daily use flows.',
+      'Supported basic n8n workflow automation using Python and JavaScript scripts to connect inquiry updates with ClickUp, Slack, and internal follow-up tracking processes.',
+      'Normalized MySQL tables and documented API requests in Postman, reducing duplicate records by 16% while improving developer handoff clarity during admin release fixes.'
     ],
   },
 ]
