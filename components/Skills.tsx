@@ -7,17 +7,19 @@ const skills: Record<string, string[]> = {
   'Languages': [
     'Python', 'JavaScript', 'TypeScript', 'SQL', 'HTML5', 'CSS3'
   ],
-  'Frontend Development': [
-    'Angular', 'React.js', 'Vue.js', 'RxJS', 'NgRx', 'Redux', 'Vue Router', 'SCSS', 'Bootstrap'
+  'Backend Development': ['FastAPI', 'Rest API', 'Backend Services', 'Flask', 'API Design', 'Business Logic Development', 'Async Programming', 'Workflow Automation'],
+  'Data & Integrations' : ['Enterprise API Integrations', 'Data Ingestion Pipelines', 'Data Processing', 'Event Processing', 'JSON', 'XML', 'Syslog', 'CEF', 'Splunk Integrations'],
+  'Databases': [
+     'PostgreSQL', 'MongoDB', 'MySQL', 'SQLAlchemy', 'Database Design', 'Query Optimization', 'Indexing Strategies'
   ],
-  'Backend Development': ['FastAPI', 'Django', 'Flask', 'Node.js', 'Express.js', 'REST APIs', 'GraphQL', 'WebSockets'],
-  'Databases & ORM': [
-    'MongoDB', 'PostgreSQL', 'MySQL', 'Mongoose', 'SQLAlchemy', 'Aggregation Pipelines', 'Indexing'
-  ],
+  'Distributed Systems Concepts' : ['Asynchronous Processing', 'Event-Driven Workflows', 'State Management', 'Idempotent Processing', 'Retry & Recovery Patterns'],
   'Cloud & DevOps': [
     'AWS (EC2, S3, RDS, Lambda)', 'Docker', 'Nginx', 'GitHub Actions', 'CI/CD'
   ],
-  'AI, Testing & Tools': ['Machine Learning', 'TensorFlow', 'Scikit-learn', 'PyTest', 'Jest', 'Postman', 'Swagger/OpenAPI', 'n8n', 'Git', 'GitHub', 'Jira'],
+  'Frontend Development': [
+    'Angular', 'React.js', 'SCSS', 'Bootstrap'
+  ],
+  'AI, Security, Testing & Tools': ['Splunk Technology Add-ons (TAs)', 'Web Security', "CSP", 'Machine Learning', 'TensorFlow', 'Scikit-learn', 'PyTest', 'Jest', 'Postman', 'Swagger/OpenAPI', 'n8n', 'Git', 'GitHub', 'Jira'],
 }
 
 export default function Skills() {

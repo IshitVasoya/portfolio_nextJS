@@ -9,34 +9,26 @@ const experiences = [
     company: 'Guild',
     period: 'Jan 2025 — Present',
     details: [
-      'Configured FastAPI service modules for employer-sponsored learning enrollment, connecting React.js components, PostgreSQL models, and SQLAlchemy validations across learner profile update workflows for advisors daily use.',
-      'Refined tuition eligibility APIs using Python and Pydantic validation, reducing enrollment exception handling by 24% while supporting employer-specific program rules and learner status changes securely.',
-      'Integrated AWS S3 document uploads with backend enrollment records, enabling learners to submit reimbursement file through authenticated React.js portal screens without support intervention delays monthly.',
-      'Optimized PostgreSQL queries and indexing for learner progress dashboards, improving dashboard response time by 31% during advisor review and employer reporting cycles across cohorts weekly.',
-      'Automated PyTest coverage and GitHub Actions checks for enrollment API changes, catching validation issues before releases across FastAPI and React.js updates to reduce rework cycles.',
-      'Monitored production API logs through AWS CloudWatch and resolved learner profile defects, lowering repeated support tickets by 18% across enrollment workflow releases and dashboard updates.'
+      'Developed Python-based backend services using FastAPI, Pydantic, SQLAlchemy, and PostgreSQL to support employer-sponsored enrollment workflows, implementing business rules for learner eligibility, application processing, and profile management.',
+      'Built workflow-driven backend features connecting React.js applications with FastAPI services and PostgreSQL data models, enabling advisors to manage learner profiles, enrollment states, and progress tracking workflows supporting 150K+ active learners across employer-sponsored programs.',
+      'Designed secure document processing workflows using AWS S3 pre-signed URLs, enabling direct client-to-cloud uploads for reimbursement documents while reducing backend file transfer overhead and improving upload reliability.',
+      'Improved PostgreSQL-backed advisor dashboards by analyzing query performance, optimizing SQLAlchemy data access patterns, resolving inefficient relationship loading, and implementing indexing strategies that reduced API response latency from approximately 1.5 seconds to under 300ms.',
+      'Developed asynchronous backend workflows for long-running enrollment and processing tasks, improving application responsiveness by decoupling resource-intensive operations from synchronous API request flows.',
+      'Enhanced production reliability by monitoring application behavior through AWS CloudWatch, troubleshooting workflow failures, improving validation handling, and reducing recurring support escalations by approximately 15–20%.'
     ],
   },
   {
-    role: 'Full Stack Developer',
-    company: 'Elluminati Inc.',
-    period: 'Jan 2023 — Aug 2023',
+    role: 'Software Engineer – Python Backend & Integrations,',
+    company: 'Crest Data',
+    period: 'Oct 2021 — Jul 2023',
     details: [
-      'Mapped driver, customer, and merchant workflow requirements into Angular screens for an on-demand dispatch portal supporting booking, assignment, fare visibility, and branch operations modules daily.',
-      'Built Express.js APIs with MongoDB collections for trip status updates, improving dispatcher lookup time by 22% across active ride and delivery queues during rush hours.',
-      'Connected RxJS-based Angular services with Node.js endpoints to refresh booking, payment, and driver availability data without full page reloads for operations staff monitoring shifts weekly.',
-      'Structured Mongoose schemas for customer, driver, vehicle, and order records, keeping operational data consistent across admin modules and mobile app integrations across production releases smoothly.',
-      'Tested REST APIs through Postman and fixed validation defects before release, reducing repeated QA issues by 19% during marketplace portal delivery cycles for client rollouts.'
-    ],
-  },
-  {
-    role: 'Software developer (Intern)',
-    company: 'Equisinfo',
-    period: 'Jul 2022 — Dec 2022',
-    details: [
-      'Assisted Node.js development for an internal training-request tracker, creating Express.js routes for student inquiries, batch details, counselor follow-ups, and basic status updates daily use flows.',
-      'Supported basic n8n workflow automation using Python and JavaScript scripts to connect inquiry updates with ClickUp, Slack, and internal follow-up tracking processes.',
-      'Normalized MySQL tables and documented API requests in Postman, reducing duplicate records by 16% while improving developer handoff clarity during admin release fixes.'
+      'Developed Python-based backend integration services to collect, process, and normalize data from enterprise security and observability platforms through REST APIs, delivering structured event data into Splunk environments.',
+      'Built and packaged 6+ integration modules and Splunk Technology Add-ons (TAs) by transforming JSON, Syslog, and CEF payloads into standardized event structures for consistent indexing and analysis workflows.',
+      'Designed scalable data ingestion workflows using Python asynchronous processing with asyncio and httpx, improving processing efficiency while handling multiple external API integrations, authentication flows, and high-volume event collection.',
+      'Implemented reliable processing mechanisms using checkpoint-based state management, retry strategies, exponential backoff, and failure recovery patterns to prevent duplicate processing and maintain data consistency during service interruptions.',
+      'Developed Python-based automation workflows for event enrichment and response actions, integrating external platforms to streamline repetitive operational processes.',
+      'Created reusable API client libraries, integration templates, and backend components that improved development consistency and maintainability across multiple vendor integrations.',
+      'Improved integration reliability by validating API behavior, payload transformations, authentication workflows, and failure scenarios through automated testing practices using pytest and unittest.mock.'
     ],
   },
 ]

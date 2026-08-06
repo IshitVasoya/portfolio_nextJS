@@ -107,11 +107,11 @@ export default function Hero() {
               maxWidth: '100%',
             }}
           >
-            Software Engineer with 2+ years of experience developing workflow-driven web applications through secure API development,
-            interactive UI delivery, and database-backed process automation. Skilled in using Python, FastAPI, React.js, PostgreSQL,
-            SQLAlchemy, and AWS to support enrollment, document upload, eligibility validation, and dashboard workflows. Earlier
-            experience includes building Angular, Node.js, Express.js, MongoDB, and RxJS-based operational portals, with foundational
-            Node.js and MySQL work supporting inquiry tracking, API validation, and internal admin processes.
+            Backend Engineer with 3+ years of experience building scalable backend services, API-driven platforms, and enterprise integration systems
+            using Python, FastAPI, Flask, PostgreSQL, and AWS. Developed workflow-based applications, data processing pipelines, and integration services
+            handling complex business logic, high-volume data flows, and production reliability challenges. Experienced in backend performance
+            optimization, asynchronous processing, API integrations, database tuning, and cloud-based application development. Masters in Computer
+            Science with hands-on experience delivering production systems across education technology and enterprise security domains.
           </motion.p>
 
           <motion.div

@@ -17,9 +17,9 @@ const projects = [
   },
   {
     title: 'Securing User Browsing: Browser and Extension Effectiveness Against XSS Attack',
-    tags: ['Python', 'Flask', 'HTML', 'CSS', 'CSP', 'Selenium', 'Browser Security'],
+    tags: ['Python', 'Flask', 'HTML', 'CSS', 'CSP', 'Selenium', 'Web Security'],
     description:
-    ['Engineered two Flask-backed web variants with and without CSP headers to evaluate reflected XSS behavior across browser configurations and payload execution paths.',
+    ['Developed Flask-based web applications to analyze reflected XSS vulnerabilities and evaluate CSP-based security controls across different browser environments.',
       'Implemented five XSS attack vectors covering file uploads, URL injection, snippets, text boxes, and image errors to reproduce realistic input-sanitization failures safely.',
       'Automated cross-browser validation across six browsers and security extensions, comparing script execution, blocked payloads, and CSP mitigation behavior under repeatable test conditions.'
       ],
